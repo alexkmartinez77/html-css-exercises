@@ -11,6 +11,22 @@ html, body{
     text-align: center;
     width: 300px;
 }
+#left-relative{
+    position: relative;
+    right: 100px;
+    padding:50px;
+    border: black 2px solid;
+    background-color: powderblue;
+    width:300px;
+}
+#right-relative{
+    position: relative;
+    left: 100px;
+    border: black 2px solid;
+    background-color: purple;
+    width: 300px;
+    padding:50px;
+}
 #right-position{
     position: absolute;
     right: 0px;

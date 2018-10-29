@@ -13,21 +13,3 @@ html, body{
     width: 300px;
 
 }
-#right-position{
-    position: absolute;
-    right: 0px;
-    text-align: center;
-    width: 300px;
-    padding: 50px;
-    border: solid black 2px;
-    background-color: red;
-}
-#left-position{
-    position: absolute;
-    left: 0px;
-    text-align: center;
-    width: 300px;
-    padding: 50px;
-    border: solid black 2px;
-    background-color: blue;
-}

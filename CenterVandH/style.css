@@ -4,7 +4,7 @@ html, body{
     margin: 0;
 }
 
-#centered{
+#centered-margin{
     background-color: azure;
     border: 2px black solid;
     text-align: center;
@@ -12,4 +12,22 @@ html, body{
     padding: 50px;
     width: 300px;
 
+}
+#right-position{
+    position: absolute;
+    right: 0px;
+    text-align: center;
+    width: 300px;
+    padding: 50px;
+    border: solid black 2px;
+    background-color: red;
+}
+#left-position{
+    position: absolute;
+    left: 0px;
+    text-align: center;
+    width: 300px;
+    padding: 50px;
+    border: solid black 2px;
+    background-color: blue;
 }

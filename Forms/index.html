@@ -10,14 +10,24 @@
     <!-- <input type="color">
     <input type="radio">
     <button>Submit</button> -->
-    <form method="POST">
+    <form action="http://www.wikipedia.com" method="GET">
         <!-- action - where the form sends data to -->
         <!-- method - what HTTP Method (get/post) -->
         <h1>Login</h1>
-        <input type="text" placeholder="username">
-        <input type="password" placeholder="password">
+        <label for="username">Username:</label><input name="username" type="text" placeholder="username">
+        <label for="password">Password:</label><input name="password" type="password" placeholder="password">
         <input type="Submit">
     </form>
+
+    <form action="http://www.wikipedia.com" method="GET">
+        <!-- id is used by CSS to and the label element -->
+        <!-- name is used by the form for CRUD operations -->
+        <h1>Login</h1>
+        <label for="username">Username: <input name="username" id="username" type="text" placeholder="username"></label>
+        <label for="password">Password: <input name="password" id="password" type="password" placeholder="password"></label>
+        <input type="Submit">
+    </form>
+
 
 </body>
 

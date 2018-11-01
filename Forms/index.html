@@ -7,28 +7,52 @@
 </head>
 
 <body>
-    <!-- <input type="color">
-    <input type="radio">
-    <button>Submit</button> -->
-    <form action="http://www.wikipedia.com" method="GET">
-        <!-- action - where the form sends data to -->
-        <!-- method - what HTTP Method (get/post) -->
-        <h1>Login</h1>
-        <label for="username">Username:</label><input name="username" type="text" placeholder="username">
-        <label for="password">Password:</label><input name="password" type="password" placeholder="password">
-        <input type="Submit">
-    </form>
+    <div id="form1">
+        <!-- <input type="color">
+        <input type="radio">
+        <button>Submit</button> -->
+        <h3>FORM EXAMPLE 1 - Input Tag nested in Label Tag</h3>
+        <form action="http://www.wikipedia.com" method="GET">
+            <!-- action - where the form sends data to -->
+            <!-- method - what HTTP Method (get/post) -->
+            <h3>Login</h3>
+            <label for="username">Username:</label><input name="username" type="text" placeholder="username">
+            <label for="password">Password:</label><input name="password" type="password" placeholder="password">
+            <input type="Submit">
+        </form>
+    </div>
+    <div id="form2">
+        <h3>FORM EXAMPLE 2 - Input Tag and Label tag are separate but related via "for" and "id" attributes</h3>
+        <form action="http://www.wikipedia.com" method="GET">
+            <!-- id is used by CSS to and the label element -->
+            <!-- name is used by the form for CRUD operations -->
+            <h3>Login</h3>
+            <label for="email">Email: <input name="username" id="email" type="email" placeholder="username" required></label>
+            <label for="password">Password: <input name="password" id="password" type="password" placeholder="password"
+                    required></label>
+            <input type="Submit">
+        </form>
+    </div>
+    <div id="form3">
+        <h3>FORM EXAMPLE 3 - Radio buttons give you an option of choosing one of many options and only sending the
+            selected <strong>NAME/VALUE</strong> pair
+            choice</h3>
+        <form>
+            <p>Do you prefer cats or dogs?</p> <!-- Radio buttons are for selecting one or the other ie male/female-->
 
-    <form action="http://www.wikipedia.com" method="GET">
-        <!-- id is used by CSS to and the label element -->
-        <!-- name is used by the form for CRUD operations -->
-        <h1>Login</h1>
-        <label for="email">Email: <input name="username" id="email" type="email" placeholder="username" required></label>
-        <label for="password">Password: <input name="password" id="password" type="password" placeholder="password" required></label>
-        <input type="Submit">
-    </form>
+            <label>Cats</label>
+            <input type="radio" id="cats" name="petChoice" value="CATS">
 
 
+            <label>Dogs</label>
+            <input type="radio" id="dogs" name="petChoice" value="DOGS">
+
+            <button>Submit</button>
+            <!--if button is the last element in a form it will submit the form when pressed-->
+        </form>
+    </div>
+    <input type="checkbox">
+    <!--select multiple, ie select all the skills that pertain to you-->
 </body>
 
 </HTML>

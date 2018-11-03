@@ -1,0 +1,16 @@
+h1{
+    color: #FF0000;
+}
+h4{
+    color: rgb(0,0,0);
+}
+li{
+    color: rgba(0,0,0,.5);
+}
+
+div{
+    background-color: lightgray;
+    color: white;
+    height: 100px;
+    width: 200px;
+}

@@ -1,9 +1,9 @@
 h1{
-    color: red;
+    color: #FF0000;
 }
 h4{
-    color: purple;
+    color: rgb(0,0,0);
 }
 li{
-    color:orange;
+    color: rgba(0,0,0,.5);
 }

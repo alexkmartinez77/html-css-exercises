@@ -1,0 +1,51 @@
+ body{    /*children inherit properties form parent elements */
+    color:red;
+}
+ul{      /*which ever element is closest to the target/content wins specificity */
+    color:blue;
+}
+li{
+    color: orange;
+}
+.highlight{
+    color: yellow;
+}
+#special{
+    color:pink;
+}
+
+
+/* SPECIFICITY ORDER: */
+
+/* Type Selectors */
+
+li{
+
+}
+
+li a{
+
+}
+
+li + a{
+
+}
+
+/* Class, Attribute and PseudoClass selectors */
+.hello{
+
+}
+input[type="text"]{
+
+}
+
+a:hover{
+
+}
+input:checked{
+
+}
+/* Id Selectors */
+#hello{
+    
+}

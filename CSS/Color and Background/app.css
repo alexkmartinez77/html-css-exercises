@@ -1,8 +1,13 @@
+body{
+    background: url(https://cdn.pixabay.com/photo/2016/04/15/04/02/water-1330252__340.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 h1{
     color: #FF0000;
 }
 h4{
-    color: rgb(0,0,0);
+    background-color: RGB(255,100,80);
 }
 li{
     color: rgba(0,0,0,.5);

@@ -1,41 +1,12 @@
-html, body{
-    height: 100%;
-    width: 100%;
-    margin: 0px;
-}
-#A, #B, #C, #D{
-    text-align: center;
-    margin: 10px;
-    padding: 100px;
-    border: 5px solid black;
-    font-size: 50px;
-}
-#A{
-    background-color:red;
-    display:inline-block;
-}
-
-#B{
-    background-color:blue;
-    display:inline-block;
-}
-
-#C{
-    background-color:yellow;
-    display:inline-block;
-}
-
-#D{
-    background-color:green;
-    display:inline-block;
-}
-
-#parent1, #parent2 {
-    margin: auto;
-    width: 50%;
-    text-align: center;
-}
-
-#container{
-    
+p{
+/*Content- Width and Height*/
+width: 50%; /*50% of th parent element - the body*/
+/*Border*/
+border: 2px solid blue;
+/*Padding*/
+padding-left: 40px;
+/*Margin*/
+/* margin: 20px 40px 500px 100px; */
+/* margin:0 auto 0 auto; */
+margin: 0 auto;
 }

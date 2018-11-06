@@ -1,0 +1,41 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+#A, #B, #C, #D{
+    text-align: center;
+    margin: 10px;
+    padding: 100px;
+    border: 5px solid black;
+    font-size: 50px;
+}
+#A{
+    background-color:red;
+    display:inline-block;
+}
+
+#B{
+    background-color:blue;
+    display:inline-block;
+}
+
+#C{
+    background-color:yellow;
+    display:inline-block;
+}
+
+#D{
+    background-color:green;
+    display:inline-block;
+}
+
+#parent1, #parent2 {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+#container{
+    
+}

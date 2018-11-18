@@ -1,0 +1,13 @@
+body{
+    padding-top: 70px;
+}
+.splash{
+    text-align: center;
+    margin: auto;
+    width: 300px;
+
+}
+p{
+    border-bottom:solid 2px grey;
+    padding:20px 0 10px 0;
+}
